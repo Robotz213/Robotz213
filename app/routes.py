@@ -33,27 +33,27 @@ def projects():
 @app.route("/contact", methods = ["GET", "POST"])
 def contact():
     
-    form: Type[ContactForm] = ContactForm()
-    if form.validate_on_submit():
+    # form: Type[ContactForm] = ContactForm()
+    # if form.validate_on_submit():
 
-        robot = f"Robotz Form"
-        assunto = "Notificação de Formulário"
-        destinatario = "nicholas@robotz.dev"
-        formatted_message = form.Message.data.replace('\n', '<br>')
-        mensagem = f""" <h1>Alguém preencheu seu formulário!</h1>
-                        <br>
-                        <h3>De: {form.full_name.data} </h3>
-                        <h3>Email: {form.email_address.data} </h3>
-                        <h3>Telefone: {form.phone.data} </h3>
-                        <h3>Mensage:</h3>
-                        <p>{formatted_message}</p>
-        """
+    #     robot = f"Robotz Form"
+    #     assunto = "Notificação de Formulário"
+    #     destinatario = "nicholas@robotz.dev"
+    #     formatted_message = form.Message.data.replace('\n', '<br>')
+    #     mensagem = f""" <h1>Alguém preencheu seu formulário!</h1>
+    #                     <br>
+    #                     <h3>De: {form.full_name.data} </h3>
+    #                     <h3>Email: {form.email_address.data} </h3>
+    #                     <h3>Telefone: {form.phone.data} </h3>
+    #                     <h3>Mensage:</h3>
+    #                     <p>{formatted_message}</p>
+    #     """
 
-        msg = Message(assunto, sender=robot, recipients=[
-                      destinatario], html=mensagem)
-        mail.send(msg)
-        session["message"] = 'Sua mensagem foi enviada!'
-        flash('Sua mensagem foi enviada!', "success")
-        return redirect(url_for("contact"))
+    #     msg = Message(assunto, sender=robot, recipients=[
+    #                   destinatario], html=mensagem)
+    #     mail.send(msg)
+    #     session["message"] = 'Sua mensagem foi enviada!'
+    #     flash('Sua mensagem foi enviada!', "success")
+    #     return redirect(url_for("contact"))
     
-    return render_template("contact.html", form = form, message = session.get("message", None))
+    return redirect("https://www.linkedin.com/in/nicholasazs213/")
