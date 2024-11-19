@@ -41,6 +41,6 @@ jobs:
                     cd ${{ secrets.SSH_TARGET }}
                     poetry install
                     systemctl enable flask_app.service
-                    systemctl starte flask_app.service
+                    service flask_app start
                     
             
