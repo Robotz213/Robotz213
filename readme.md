@@ -1,5 +1,7 @@
 ### Olá! Eu sou o Nicholas!! 👋
-Sou apaixonado por tecnologia, com foco especial em programação. Estou constantemente buscando aprimorar minhas habilidades para me manter atualizado com as últimas tendências e inovações. Tenho uma forte habilidade para trabalhar em equipe, sempre disposto a colaborar e contribuir com soluções eficazes para desafios complexos. Meu compromisso com a excelência e a aprendizagem contínua me torna um recurso valioso para qualquer equipe de desenvolvimento..
+
+Programador desde os 18
+
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicholasazs213)
 [![Email](https://img.shields.io/badge/Email-333333?style=for-the-badge&logo=gmail&logoColor=red)](mailto:nicholas@robotz.dev)
