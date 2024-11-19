@@ -15,5 +15,6 @@ Sou apaixonado por tecnologia, com foco especial em programação. Estou constan
   <img align="center" alt="FLASK" src="https://img.shields.io/badge/Flask-092E20?style=for-the-badge&logo=flask&logoColor=white" />
   <img align="center" alt="MYSQL" src="https://img.shields.io/badge/MySQL-6488ea?style=for-the-badge&logo=mysql&logoColor=white" />
   <img align="center" alt="LINUX" src="https://img.shields.io/badge/Linux-000?style=for-the-badge&logo=linux&logoColor=FCC624" />
+  <img align="center" alt="POWERSHELL" src="https://img.shields.io/badge/Powershell-6488ea?style=for-the-badge&logo=mysql&logoColor=white" />
 </div><br/>
 
