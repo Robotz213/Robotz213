@@ -13,10 +13,34 @@ jobs:
   
         - name: 📂 Sync files
           uses: easingthemes/ssh-deploy@main
-          env:
+          with:
             SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY_PRIVATE }}
             ARGS: "-rltgoDzvO --delete"
-            REMOTE_HOST: ${{}}
-            REMOTE_USER: ${{}}
-            REMOTE_PORT: ${{}}
-            REMOTE_TARGET: ${{}}
+            REMOTE_HOST: ${{ secrets.SSH_HOST }}
+            REMOTE_USER: ${{ secrets.SSH_USER}}
+            REMOTE_PORT: ${{ secrets.SSH_PORT }}
+            REMOTE_TARGET: ${{ secrets.SSH_TARGET }}
+            SCRIPT_BEFORE: |
+                echo "
+                    [Unit]
+                    Description=Python Service
+                    After=network.target
+                    
+                    [Service]
+                    User=${{ secrets.SSH_USER}}
+                    WorkingDirectory= ${{ secrets.SSH_TARGET }}
+                    ExecStart= poetry run python ${{ secrets.SSH_TARGET }}/main.py
+                    Restart=always
+                    
+                    [Install]
+                    WantedBy=multi-user.target
+                    " | tee /etc/systemd/system/flask_app.service
+                    systemctl daemon-reload
+                    
+            SCRIPT_AFTER: |
+                    cd ${{ secrets.SSH_TARGET }}
+                    poetry install
+                    systemctl enable flask_app.service
+                    systemctl starte flask_app.service
+                    
+            
