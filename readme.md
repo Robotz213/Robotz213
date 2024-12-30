@@ -22,14 +22,36 @@ O que me move é ver como a automação pode transformar a produtividade de equi
 
 Acredito que a tecnologia deve tornar a vida mais simples e ajudar as pessoas a se concentrarem no que realmente importa. Se há algo repetitivo que pode ser automatizado, eu encontro a solução!
 
-
-
-## Mais detalhes (Lang's, Tecnologias e contato)
-### Meus Contatos: 
+## Meus Contatos: 
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicholasazs213)
 [![Email](https://img.shields.io/badge/Email-333333?style=for-the-badge&logo=gmail&logoColor=red)](mailto:nicholas@robotz.dev)
 
+
+## Meus Projetos
+
+Atualmente estou trabalhando em apenas dois projetos principais, Eles são:
+
+### `CrawJUD`:
+
+  > Um pouco sobre:
+  Sistema de automação de fluxos em determinados sistemas usados por advogados.
+  Esse está dividido em duas partes, 
+  * A [`Web`](https://github.com/REM-Infotech/CrawJUD-Web), responsável por fornecer a interface de usuário da segunda parte do sistema. Ela oferece funcionalidades para o controle de execuções e gerenciamento dos robôs.
+  * A [`API`](https://github.com/REM-Infotech/CrawJUD-Bots), que é responsável por automatizar os fluxos.  
+
+### GuardEPI
+#### Gestão Inteligente de EPIs e Funcionários
+O GuardEPI é um sistema completo para controle de Equipamentos de Proteção Individual (EPIs) e gestão simplificada de funcionários. Ele oferece:
+
+* Controle de Estoque: Gerencie EPIs de forma eficiente, garantindo disponibilidade e rastreabilidade.
+* Histórico de Liberações: Registre e organize todas as entregas de EPIs.
+* Gestão de Funcionários: Ferramentas simples para registrar nomes, cargos, departamentos e outros detalhes essenciais.
+
+O GuardEPI é projetado para otimizar o gerenciamento de segurança e compliance nas empresas. O repositório pode ser acessado [aqui](https://github.com/REM-Infotech/GuardEPI).
+
+
+## Mais detalhes (Lang's, Tecnologias\)
 
 ### Tecnologias 
 
