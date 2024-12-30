@@ -4,7 +4,7 @@ Pode me chamar de Robotz ou até de "Roblox" (uma brincadeira que surgiu graças
 ## Sobre Mim
 Sou Programador Python, especialista em automação de processos. Meu trabalho é desenvolver [RPA'S](https://pt.wikipedia.org/wiki/Automa%C3%A7%C3%A3o_Rob%C3%B3tica_de_Processos) (Robotic Process Automation). Meu objetivo é identificar tarefas repetitivas que consomem tempo e substituí-las por soluções ágeis e automatizadas, aumentando a eficiência e liberando as pessoas para atividades mais estratégicas.
 
-## Bibliotecas que Amo Trabalhar
+## Bibliotecas que Trabalho
 * Selenium: Automação de navegadores e processos web.
 * Flask: Desenvolvimento de aplicações web simples e robustas.
 * Jinja: Dinamização de templates em aplicações web.
