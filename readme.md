@@ -1,23 +1,46 @@
-### Olá! Eu sou o Nicholas!! 👋
+# Olá, eu sou o Nicholas! 🚀
+Pode me chamar de Robotz ou até de "Roblox" (uma brincadeira que surgiu graças ao corretor automático 😂).
 
-Sou apaixonado por tecnologia, com foco especial em programação. Estou constantemente buscando aprimorar minhas habilidades para me manter atualizado com as últimas tendências e inovações. Tenho uma forte habilidade para trabalhar em equipe, sempre disposto a colaborar e contribuir com soluções eficazes para desafios complexos. Meu compromisso com a excelência e a aprendizagem contínua me torna um recurso valioso para qualquer equipe de desenvolvimento..
+## Sobre Mim
+Sou Programador Python, especialista em automação de processos. Meu trabalho é desenvolver [RPA'S](https://pt.wikipedia.org/wiki/Automa%C3%A7%C3%A3o_Rob%C3%B3tica_de_Processos) (Robotic Process Automation). Meu objetivo é identificar tarefas repetitivas que consomem tempo e substituí-las por soluções ágeis e automatizadas, aumentando a eficiência e liberando as pessoas para atividades mais estratégicas.
 
+## Bibliotecas que Amo Trabalhar
+* Selenium: Automação de navegadores e processos web.
+* Flask: Desenvolvimento de aplicações web simples e robustas.
+* Jinja: Dinamização de templates em aplicações web.
+* Também uso ferramentas como `pandas` e `sqlalchemy`, mas foquei nas minhas favoritas!
+
+## Minha Formação
+* Gestão da Tecnologia da Informação (`em andamento`)
+* Pretendo continuar ampliando meu conhecimento e habilidades constantemente!
+
+## Minha Jornada
+Comecei no mundo da programação com C++, o que me deu uma base sólida em lógica e desenvolvimento. Com o tempo, me apaixonei pelo Python, pela sua sintaxe intuitiva e por seu poderoso ecossistema de bibliotecas. Hoje, meu foco é criar scripts e robôs que simplificam o dia a dia de pessoas e empresas.
+
+## Minha Motivação
+O que me move é ver como a automação pode transformar a produtividade de equipes e empresas. Cada robô que desenvolvo é uma solução que reduz esforço humano desnecessário, diminui erros e traz mais eficiência para os fluxos de trabalho.
+
+Acredito que a tecnologia deve tornar a vida mais simples e ajudar as pessoas a se concentrarem no que realmente importa. Se há algo repetitivo que pode ser automatizado, eu encontro a solução!
+
+
+
+## Mais detalhes (Lang's, Tecnologias e contato)
+### Meus Contatos: 
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicholasazs213)
 [![Email](https://img.shields.io/badge/Email-333333?style=for-the-badge&logo=gmail&logoColor=red)](mailto:nicholas@robotz.dev)
 
-![Nicholas Github stats](https://github-readme-stats.vercel.app/api?username=Robotz213&show_icons=true&theme=onedark)
 
 ### Tecnologias 
 
-### > Languages: 
+#### Languages: 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 
-### > Libraries e Frameworks:
+#### Libraries e Frameworks:
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
@@ -26,13 +49,11 @@ Sou apaixonado por tecnologia, com foco especial em programação. Estou constan
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 
-### > Databases:
+#### Databases:
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-### > Sistemas:
+### Sistemas:
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-
 
