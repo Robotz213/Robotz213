@@ -29,16 +29,15 @@ Acredito que a tecnologia deve tornar a vida mais simples e ajudar as pessoas a 
 
 
 ## Meus Projetos
+Atualmente, estou focado no desenvolvimento de dois projetos principais, ambos voltados para resolver desafios específicos de forma prática e eficiente:
 
-Atualmente estou trabalhando em apenas dois projetos principais, Eles são:
+### CrawJUD
+#### Automação de Fluxos para Advogados
+O CrawJUD é um sistema inovador que automatiza processos em sistemas frequentemente utilizados por advogados, ajudando a economizar tempo e aumentar a produtividade. O projeto é dividido em duas partes:
 
-### `CrawJUD`:
-
-  > Um pouco sobre:
-  Sistema de automação de fluxos em determinados sistemas usados por advogados.
-  Esse está dividido em duas partes, 
-  * A [`Web`](https://github.com/REM-Infotech/CrawJUD-Web), responsável por fornecer a interface de usuário da segunda parte do sistema. Ela oferece funcionalidades para o controle de execuções e gerenciamento dos robôs.
-  * A [`API`](https://github.com/REM-Infotech/CrawJUD-Bots), que é responsável por automatizar os fluxos.  
+* [`Web`](https://github.com/REM-Infotech/CrawJUD-Web): Responsável por fornecer uma interface de usuário intuitiva, onde é possível controlar execuções e gerenciar robôs de forma centralizada.
+* [`API`](https://github.com/REM-Infotech/CrawJUD-Bots): Cuida da automação dos fluxos, garantindo eficiência e integração com os sistemas necessários.
+Com o CrawJUD, meu objetivo é facilitar a rotina jurídica, reduzindo o tempo gasto em tarefas repetitivas.
 
 ### GuardEPI
 #### Gestão Inteligente de EPIs e Funcionários
