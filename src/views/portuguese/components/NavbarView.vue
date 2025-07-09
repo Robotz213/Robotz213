@@ -5,7 +5,7 @@ const { currentPage } = storeToRefs(navbarStore())
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiar fixed-top">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <button
         class="navbar-toggler"

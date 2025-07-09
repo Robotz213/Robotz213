@@ -25,17 +25,31 @@ function getComponent(page: string) {
 </script>
 
 <template>
-  <NavbarView />
-  <div class="overflow-y-auto" style="height: calc(100% - 57px)">
-    <div class="container mb-5 mt-5" style="position: relative; top: 56px">
-      <Transition name="slide-fade" mode="out-in">
-        <component :is="getComponent(currentPage)" />
-      </Transition>
+  <div>
+    <NavbarView />
+    <div class="container-fluid overflow-y-auto mt-5" style="height: calc(100% - 57px)">
+      <div id="content" class="row">
+        <div class="col-3">
+          <div class="card" style="height: 100%"></div>
+        </div>
+        <div class="col-7">
+          <div class="card" style="height: calc(100dvh - 200px)">
+            <Transition name="slide-fade" mode="out-in">
+              <component :is="getComponent(currentPage)" />
+            </Transition>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <style lang="css" scoped>
+#content {
+  display: flex;
+  justify-content: center;
+}
+
 .slide-fade-enter-active {
   transition: all 0.4s ease-out;
 }
