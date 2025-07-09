@@ -18,3 +18,9 @@ body {
   overflow-y: hidden;
   height: 100%;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(6, 82, 38) !important;
+  }
+}
