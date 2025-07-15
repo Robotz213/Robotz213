@@ -6,9 +6,9 @@ import HeaderView from '@/components/HeaderView.vue'
   <HeaderView />
   <section id="sobre" class="bg-white section-padding shadow-inner">
     <div class="container mx-auto px-4">
-      <h2 class="text-4xl font-bold text-center text-blue-700 mb-12">Sobre Mim</h2>
+      <h2 class="text-4xl font-bold text-center text-meteorite-700 mb-12">Sobre Mim</h2>
       <div class="grid md:grid-cols-2 gap-12 items-center">
-        <div>
+        <div class="text_background">
           <h3 class="text-2xl font-semibold mb-4">Minha Jornada na Programação</h3>
           <p class="mb-4 leading-relaxed">
             Iniciei minha jornada no universo da programação com C++, o que me proporcionou uma base
@@ -38,3 +38,11 @@ import HeaderView from '@/components/HeaderView.vue'
     </div>
   </section>
 </template>
+
+<style lang="css" scoped>
+.text_background {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(6, 92, 92, 0.199);
+}
+</style>

@@ -1,7 +1,9 @@
 <template>
   <section id="projetos" class="bg-white section-padding shadow-inner">
     <div class="container mx-auto px-4">
-      <h2 class="text-4xl font-bold text-center text-blue-700 mb-12">Meus Projetos em Destaque</h2>
+      <h2 class="text-4xl font-bold text-center text-meteorite-700 mb-12">
+        Meus Projetos em Destaque
+      </h2>
       <p class="text-center text-lg mb-8 max-w-2xl mx-auto">
         Atualmente, estou dedicado ao desenvolvimento de dois projetos principais, ambos focados em
         resolver desafios específicos de forma prática e eficiente, otimizando processos e
@@ -12,7 +14,7 @@
         <div
           class="bg-gray-50 p-8 rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition duration-300"
         >
-          <h3 class="text-3xl font-bold text-blue-600 mb-4">CrawJUD</h3>
+          <h3 class="text-3xl font-bold text-meteorite-600 mb-4">CrawJUD</h3>
           <h4 class="text-xl font-semibold text-gray-700 mb-4">
             Automação de Fluxos para Advogados
           </h4>
@@ -28,7 +30,7 @@
               <a
                 href="https://github.com/REM-Infotech/CrawJUD-Web"
                 target="_blank"
-                class="text-blue-500 hover:underline text-sm ml-2"
+                class="text-meteorite-500 hover:underline text-sm ml-2"
                 >[Ver Repositório]</a
               >
             </li>
@@ -38,7 +40,7 @@
               <a
                 href="https://github.com/REM-Infotech/CrawJUD-Bots"
                 target="_blank"
-                class="text-blue-500 hover:underline text-sm ml-2"
+                class="text-meteorite-500 hover:underline text-sm ml-2"
                 >[Ver Repositório]</a
               >
             </li>
@@ -53,7 +55,7 @@
         <div
           class="bg-gray-50 p-8 rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition duration-300"
         >
-          <h3 class="text-3xl font-bold text-blue-600 mb-4">GuardEPI</h3>
+          <h3 class="text-3xl font-bold text-meteorite-600 mb-4">GuardEPI</h3>
           <h4 class="text-xl font-semibold text-gray-700 mb-4">
             Gestão Inteligente de EPIs e Funcionários
           </h4>
@@ -83,7 +85,7 @@
             <a
               href="https://github.com/REM-Infotech/GuardEPI"
               target="_blank"
-              class="text-blue-500 hover:underline ml-2"
+              class="text-meteorite-500 hover:underline ml-2"
               >[Ver Repositório]</a
             >
           </p>

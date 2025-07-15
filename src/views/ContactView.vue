@@ -1,5 +1,5 @@
 <template>
-  <section id="contato" class="bg-blue-700 text-white section-padding">
+  <section id="contato" class="bg-meteorite-700 text-white section-padding">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-4xl font-bold mb-8">Entre em Contato</h2>
       <p class="text-xl mb-8">
@@ -9,7 +9,7 @@
         <a
           href="https://www.linkedin.com/in/nicholasazs213"
           target="_blank"
-          class="flex items-center bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300 shadow-lg"
+          class="flex items-center bg-white text-meteorite-700 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300 shadow-lg"
         >
           <img
             src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
@@ -20,7 +20,7 @@
         </a>
         <a
           href="mailto:nicholas@robotz.dev"
-          class="flex items-center bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300 shadow-lg"
+          class="flex items-center bg-white text-meteorite-700 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300 shadow-lg"
         >
           <img
             src="https://img.shields.io/badge/Email-333333?style=for-the-badge&logo=gmail&logoColor=red"

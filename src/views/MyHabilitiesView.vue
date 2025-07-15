@@ -1,7 +1,7 @@
 <template>
   <section id="habilidades" class="bg-gray-50 section-padding">
     <div class="container mx-auto px-4">
-      <h2 class="text-4xl font-bold text-center text-blue-700 mb-12">
+      <h2 class="text-4xl font-bold text-center text-meteorite-700 mb-12">
         Minhas Habilidades e Ferramentas
       </h2>
       <p class="text-center text-lg mb-8 max-w-2xl mx-auto">
@@ -12,28 +12,33 @@
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
-          <h3 class="text-2xl font-semibold mb-4 text-blue-600">Linguagens</h3>
+          <h3 class="text-2xl font-semibold mb-4 text-meteorite-600">Linguagens</h3>
           <div class="flex flex-wrap gap-3">
-            <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+            <span
+              class="bg-meteorite-100 text-meteorite-800 text-sm font-medium px-3 py-1 rounded-full"
               >Python</span
             >
-            <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+            <span
+              class="bg-meteorite-100 text-meteorite-800 text-sm font-medium px-3 py-1 rounded-full"
               >C++</span
             >
-            <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+            <span
+              class="bg-meteorite-100 text-meteorite-800 text-sm font-medium px-3 py-1 rounded-full"
               >C</span
             >
-            <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+            <span
+              class="bg-meteorite-100 text-meteorite-800 text-sm font-medium px-3 py-1 rounded-full"
               >JavaScript</span
             >
-            <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full"
+            <span
+              class="bg-meteorite-100 text-meteorite-800 text-sm font-medium px-3 py-1 rounded-full"
               >PowerShell</span
             >
           </div>
         </div>
 
         <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
-          <h3 class="text-2xl font-semibold mb-4 text-blue-600">Bibliotecas e Frameworks</h3>
+          <h3 class="text-2xl font-semibold mb-4 text-meteorite-600">Bibliotecas e Frameworks</h3>
           <div class="flex flex-wrap gap-3">
             <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full"
               >Selenium</span
@@ -66,7 +71,7 @@
         </div>
 
         <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
-          <h3 class="text-2xl font-semibold mb-4 text-blue-600">Bancos de Dados & Sistemas</h3>
+          <h3 class="text-2xl font-semibold mb-4 text-meteorite-600">Bancos de Dados & Sistemas</h3>
           <div class="flex flex-wrap gap-3 mb-4">
             <span class="bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full"
               >Postgres</span
