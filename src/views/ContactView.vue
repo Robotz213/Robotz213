@@ -1,5 +1,6 @@
 <template>
-  <section id="contato" class="bg-meteorite-700 text-white section-padding">
+  <hr />
+  <!-- <section id="contato" class="bg-meteorite-700 text-white section-padding">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-4xl font-bold mb-8">Entre em Contato</h2>
       <p class="text-xl mb-8">
@@ -31,5 +32,5 @@
         </a>
       </div>
     </div>
-  </section>
+  </section> -->
 </template>

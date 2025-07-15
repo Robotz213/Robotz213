@@ -16,57 +16,65 @@
           <div class="flex flex-wrap gap-3">
             <span
               class="bg-meteorite-100 text-meteorite-800 text-sm font-medium px-3 py-1 rounded-full"
-              >Python</span
             >
+              Python
+            </span>
             <span
               class="bg-meteorite-100 text-meteorite-800 text-sm font-medium px-3 py-1 rounded-full"
-              >C++</span
             >
+              JavaScript
+            </span>
             <span
               class="bg-meteorite-100 text-meteorite-800 text-sm font-medium px-3 py-1 rounded-full"
-              >C</span
             >
+              PowerShell
+            </span>
             <span
               class="bg-meteorite-100 text-meteorite-800 text-sm font-medium px-3 py-1 rounded-full"
-              >JavaScript</span
             >
+              Java
+            </span>
             <span
               class="bg-meteorite-100 text-meteorite-800 text-sm font-medium px-3 py-1 rounded-full"
-              >PowerShell</span
             >
+              C / C++
+            </span>
           </div>
         </div>
 
         <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
           <h3 class="text-2xl font-semibold mb-4 text-meteorite-600">Bibliotecas e Frameworks</h3>
           <div class="flex flex-wrap gap-3">
-            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full"
-              >Selenium</span
-            >
-            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full"
-              >Flask</span
-            >
-            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full"
-              >Jinja</span
-            >
-            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full"
-              >pandas</span
-            >
-            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full"
-              >SQLAlchemy</span
-            >
-            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full"
-              >jQuery</span
-            >
-            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full"
-              >Bootstrap</span
-            >
-            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full"
-              >Electron.js</span
-            >
-            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full"
-              >NodeJS</span
-            >
+            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">
+              Selenium
+            </span>
+            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">
+              Flask / Quart
+            </span>
+            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">
+              Jinja
+            </span>
+            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">
+              Pandas
+            </span>
+            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">
+              SQLAlchemy
+            </span>
+            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">
+              jQuery
+            </span>
+            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">
+              Bootstrap
+            </span>
+            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">
+              ElectronJs
+            </span>
+            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">
+              NodeJS
+            </span>
+            <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">
+              VueJS
+            </span>
           </div>
         </div>
 
