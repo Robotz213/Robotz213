@@ -1,21 +1,20 @@
 services:
-    web:
-        build:
-            context: .
-            dockerfile: Dockerfile
-        ports:
-            - "80:80"
-        volumes:
-            - ./dist:/usr/share/nginx/html
-        depends_on:
-            - app
-
     app:
         image: node:lts-alpine
         working_dir: /app
         volumes:
             - .:/app
         command: sh -c "pnpm install && pnpm run build"
+    web:
+        image: nginx
+        ports:
+            - "8080:80"
+        volumes:
+            - ./dist:/usr/share/nginx/html
+        depends_on:
+            - app
+
+    
 
 networks:
     default:
