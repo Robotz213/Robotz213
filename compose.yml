@@ -4,7 +4,7 @@ services:
         working_dir: /app
         volumes:
             - .:/app
-        command: sh -c "pnpm install && pnpm run build"
+        command: corepack enable pnpm && sh -c "pnpm install && pnpm run build"
     web:
         image: nginx
         ports:
