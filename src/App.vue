@@ -1,7 +1,17 @@
 <script setup lang="ts">
-import PortugueseView from './views/portuguese/PortugueseView.vue'
+import FooterView from './components/FooterView.vue'
+import NavbarView from './components/NavbarView.vue'
+import AboutmeView from './views/AboutmeView.vue'
+import ContactView from './views/ContactView.vue'
+import MyHabilitiesView from './views/MyHabilitiesView.vue'
+import MyProjectsView from './views/MyProjectsView.vue'
 </script>
 
 <template>
-  <PortugueseView />
+  <NavbarView />
+  <AboutmeView />
+  <MyHabilitiesView />
+  <MyProjectsView />
+  <ContactView />
+  <FooterView />
 </template>
