@@ -28,17 +28,18 @@
               <span class="font-semibold">Web:</span> Uma interface de usuário intuitiva para
               controlar execuções e gerenciar robôs de forma centralizada.
               <a
-                href="https://github.com/REM-Infotech/CrawJUD-Web"
+                href="https://github.com/Robotz213/CrawJUD-Vue"
                 target="_blank"
                 class="text-meteorite-500 hover:underline text-sm ml-2"
-                >[Ver Repositório]</a
               >
+                [Ver Repositório]
+              </a>
             </li>
             <li>
               <span class="font-semibold">API:</span> Responsável pela automação dos fluxos,
               garantindo eficiência e integração perfeita com os sistemas necessários.
               <a
-                href="https://github.com/REM-Infotech/CrawJUD-Bots"
+                href="https://github.com/REM-Infotech/CrawJUD"
                 target="_blank"
                 class="text-meteorite-500 hover:underline text-sm ml-2"
                 >[Ver Repositório]</a
