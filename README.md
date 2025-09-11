@@ -38,3 +38,6 @@ desde APIs e bancos de dados até interfaces intuitivas.
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
+## Estatísticas do meu Github
+![Nicholas Silva's GitHub stats](https://github-readme-stats.vercel.app/api?username=Robotz213&show_icons=true&theme=gruvbox)
+
