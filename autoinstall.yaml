@@ -11,7 +11,7 @@ autoinstall:
 
   identity:
     hostname: iridium
-    username: ubuntu
+    username: robotz
     password: "$6$rS97vWpluYFUyMsd$GygXSA3G1J7iO08B.DrKkoZ3z3d31c440jtiIx9BTmUe06j1yjjXnHKrNkFERqUYzbC2rKu9t7SFeL0VpKMQ81"
 
   ssh:
