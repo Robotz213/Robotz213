@@ -1,0 +1,90 @@
+storage:
+  config:
+    #
+    # Disco do sistema
+    #
+    - type: disk
+      id: disk-sda
+      path: /dev/sda
+      ptable: gpt
+      wipe: superblock-recursive
+      grub_device: true
+
+    - type: partition
+      id: efi-part
+      device: disk-sda
+      size: 512M
+      flag: boot
+
+    - type: format
+      id: efi-fs
+      volume: efi-part
+      fstype: fat32
+
+    - type: mount
+      device: efi-fs
+      path: /boot/efi
+
+    - type: partition
+      id: boot-part
+      device: disk-sda
+      size: 1G
+
+    - type: format
+      id: boot-fs
+      volume: boot-part
+      fstype: ext4
+
+    - type: mount
+      device: boot-fs
+      path: /boot
+
+    - type: partition
+      id: lvm-part
+      device: disk-sda
+      size: -1
+
+    - type: lvm_volgroup
+      id: vg0
+      name: ubuntu-vg
+      devices:
+        - lvm-part
+
+    - type: lvm_partition
+      id: lv-root
+      name: root
+      volgroup: vg0
+      size: -1
+
+    - type: format
+      id: root-fs
+      volume: lv-root
+      fstype: ext4
+
+    - type: mount
+      device: root-fs
+      path: /
+
+    #
+    # Disco /home
+    #
+    - type: disk
+      id: disk-sdd
+      path: /dev/sdd
+      ptable: gpt
+      wipe: superblock-recursive
+
+    - type: partition
+      id: home-part
+      device: disk-sdd
+      size: -1
+
+    - type: format
+      id: home-fs
+      volume: home-part
+      fstype: ext4
+
+    - type: mount
+      device: home-fs
+      path: /home
+
