@@ -1,90 +1,109 @@
-storage:
-  config:
-    #
-    # Disco do sistema
-    #
-    - type: disk
-      id: disk-sda
-      path: /dev/sda
-      ptable: gpt
-      wipe: superblock-recursive
-      grub_device: true
+#cloud-config
+autoinstall:
+  version: 1
 
-    - type: partition
-      id: efi-part
-      device: disk-sda
-      size: 512M
-      flag: boot
+  locale: pt_BR.UTF-8
 
-    - type: format
-      id: efi-fs
-      volume: efi-part
-      fstype: fat32
+  keyboard:
+    layout: br
 
-    - type: mount
-      device: efi-fs
-      path: /boot/efi
+  timezone: America/Manaus
 
-    - type: partition
-      id: boot-part
-      device: disk-sda
-      size: 1G
+  identity:
+    hostname: iridium
+    username: ubuntu
+    password: "$6$rS97vWpluYFUyMsd$GygXSA3G1J7iO08B.DrKkoZ3z3d31c440jtiIx9BTmUe06j1yjjXnHKrNkFERqUYzbC2rKu9t7SFeL0VpKMQ81"
 
-    - type: format
-      id: boot-fs
-      volume: boot-part
-      fstype: ext4
+  ssh:
+    install-server: true
+    allow-pw: true
 
-    - type: mount
-      device: boot-fs
-      path: /boot
+  storage:
+    config:
+      #
+      # Disco do sistema
+      #
+      - type: disk
+        id: disk-sda
+        path: /dev/sda
+        ptable: gpt
+        wipe: superblock-recursive
+        grub_device: true
 
-    - type: partition
-      id: lvm-part
-      device: disk-sda
-      size: -1
+      - type: partition
+        id: efi-part
+        device: disk-sda
+        size: 512M
+        flag: boot
 
-    - type: lvm_volgroup
-      id: vg0
-      name: ubuntu-vg
-      devices:
-        - lvm-part
+      - type: format
+        id: efi-fs
+        volume: efi-part
+        fstype: fat32
 
-    - type: lvm_partition
-      id: lv-root
-      name: root
-      volgroup: vg0
-      size: -1
+      - type: mount
+        device: efi-fs
+        path: /boot/efi
 
-    - type: format
-      id: root-fs
-      volume: lv-root
-      fstype: ext4
+      - type: partition
+        id: boot-part
+        device: disk-sda
+        size: 1G
 
-    - type: mount
-      device: root-fs
-      path: /
+      - type: format
+        id: boot-fs
+        volume: boot-part
+        fstype: ext4
 
-    #
-    # Disco /home
-    #
-    - type: disk
-      id: disk-sdd
-      path: /dev/sdd
-      ptable: gpt
-      wipe: superblock-recursive
+      - type: mount
+        device: boot-fs
+        path: /boot
 
-    - type: partition
-      id: home-part
-      device: disk-sdd
-      size: -1
+      - type: partition
+        id: lvm-part
+        device: disk-sda
+        size: -1
 
-    - type: format
-      id: home-fs
-      volume: home-part
-      fstype: ext4
+      - type: lvm_volgroup
+        id: vg0
+        name: ubuntu-vg
+        devices:
+          - lvm-part
 
-    - type: mount
-      device: home-fs
-      path: /home
+      - type: lvm_partition
+        id: lv-root
+        name: root
+        volgroup: vg0
+        size: -1
 
+      - type: format
+        id: root-fs
+        volume: lv-root
+        fstype: ext4
+
+      - type: mount
+        device: root-fs
+        path: /
+
+      #
+      # Disco /home
+      #
+      - type: disk
+        id: disk-sdd
+        path: /dev/sdd
+        ptable: gpt
+        wipe: superblock-recursive
+
+      - type: partition
+        id: home-part
+        device: disk-sdd
+        size: -1
+
+      - type: format
+        id: home-fs
+        volume: home-part
+        fstype: ext4
+
+      - type: mount
+        device: home-fs
+        path: /home
