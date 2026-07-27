@@ -12,7 +12,7 @@ autoinstall:
   identity:
     hostname: iridium
     username: robotz
-    password: "$6$rS97vWpluYFUyMsd$GygXSA3G1J7iO08B.DrKkoZ3z3d31c440jtiIx9BTmUe06j1yjjXnHKrNkFERqUYzbC2rKu9t7SFeL0VpKMQ81"
+    password: "$y$j9T$PLlUUns1wU9qufUBofpMS.$o7yK.FK/fKF2.y/pi6zlxLDoj7b8Uj2O1cwHaTkKPT5"
 
   ssh:
     install-server: true
